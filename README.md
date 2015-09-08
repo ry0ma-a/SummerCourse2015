@@ -8,4 +8,4 @@
 
 ## Day2 チーム開発に便利なツールを学んだ
 1.GitとGitHub
-2.Vagrant
+1.Vagrant
