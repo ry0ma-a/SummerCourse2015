@@ -23,11 +23,11 @@ function toVoiceInsideYourHeart(phrase) {
     if (phrase.charAt(i) == '。' || phrase.charAt(i) == '，') {
       phrase = phrase.substring(0, i) + (phrase.substring(i, phrase.length)).replace(phrase.charAt(i), '...');
       num = max_num;
-      i += -1; // TODO: 0の代わりに，正しい数値を入れてください
+      i += 3; // TODO: 0の代わりに，正しい数値を入れてください
     } else if (phrase.charAt(i - 1) == '？' || Math.floor(Math.random() * num) < 1) {　// TODO: 条件式の右辺の -1 を自分が最適だと感じる数値に調整してください。
       phrase = phrase.insertDots(phrase, i);
       num = max_num;
-      i += 1; // TODO: 0の代わりに，正しい数値を入れてください
+      i += 3; // TODO: 0の代わりに，正しい数値を入れてください
     }
     num--;
   }
