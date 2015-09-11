@@ -16,7 +16,7 @@ Number.prototype.divide = function ( num ) {
 
 Number.prototype.mod = function ( num ) {
   return this % num;
-}
+};
 
 var number = 100;
 
