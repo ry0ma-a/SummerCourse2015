@@ -65,6 +65,7 @@ var htmlHeader = '<!DOCTYPE html>\
 
 var htmlContents = '<body>'
 + 'ここにRSSの内容'
++ request
 + '</body>';
 console.log("flag2");
 
